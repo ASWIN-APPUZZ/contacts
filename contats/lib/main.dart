@@ -1,5 +1,5 @@
-// import 'package:contactapp/src/pages/contact_page.dart';
 import 'package:flutter/material.dart';
+import 'src/pages/contact_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Contacts Application',
       debugShowCheckedModeBanner: false,
-      // home: ContactPage(),
+      home: ContactPage(),
     );
   }
 }
